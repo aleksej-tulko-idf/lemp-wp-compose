@@ -2,5 +2,5 @@ Before launching the containers, there on the host:
 
 - add user and group 'mysql' with 999 uid and gid
 - add user and group 'www-data' with 82 uid and gid
-- run 'sudo mkdir /etc/nginx && sudo cp nginx-config/default.conf /etc/nginx'
+- run 'sudo mkdir /etc/nginx && sudo cp nginx-conf/default.conf /etc/nginx'
 - fill in .env with values after variables
